@@ -1,20 +1,15 @@
 {
   "name": "astro-supa-base",
+  "type": "module",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/planckc/myweb-astro-supabase.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/planckc/myweb-astro-supabase/issues"
-  },
-  "homepage": "https://github.com/planckc/myweb-astro-supabase#readme",
-  "description": ""
+"scripts": {
+  "dev": "astro dev",
+  "build": "astro build",
+  "preview": "astro preview",
+  "start": "astro preview"
+},
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0",
+    "astro": "^4.0.0"
+  }
 }
